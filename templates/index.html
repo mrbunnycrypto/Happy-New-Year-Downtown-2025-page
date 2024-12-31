@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year Downtown 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .countdown {
+            font-size: 30px;
+            margin: 20px 0;
+        }
+        .current-time {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        h1 {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy New Year Downtown 2025!</h1>
+    <div class="current-time">
+        <p>Current Time: {{ current_time }}</p>
+    </div>
+
+    <div class="countdown">
+        <h2>Countdown to New Year 2025:</h2>
+        <p>{{ days_left }} days, {{ hours_left }} hours, {{ minutes_left }} minutes, {{ seconds_left }} seconds</p>
+    </div>
+
+</body>
+</html>
